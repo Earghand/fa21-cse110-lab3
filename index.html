@@ -2,23 +2,31 @@
 <html lang="en">
     <head>
         <meta name="Transportation App" content="Second team meeting">
-        <title>Transportation App</title>
+        <title>Flix Movie Website</title>
     </head>
     <body>
         <div>
         <header>
-        <h1>Transportation App Second Meeting</h1>
-        <h3>Team Technology Meeting</h3>
+        <h1>Flix Movie Website</h1>
         <img src="assets/computer.png" height="300px"></img>
         <h4><i>October 1, 2021</i></h4>
+        <hr>
+
     </header>
     </div>
     <main>
         <div>
             <h4>Previous Meeting Notes</h4>
             <summary>Previous meeting was introductions and backgrounds of each Developer before the project. Brainstormed a few technology, frontend and backend ideas.</summary>
-            <h4>Today's meeting</h4>
-            <details>During this meeting, we will go over the technologies that will be used on the transportation app project. We will be discussing potential backend and frontend technologies that should be leveraged.</details>
+            <h4>Today's meeting Agenda</h4>
+            <details>
+                <ol>
+                    <li>Finish up introductions and ice breaker with teammates</li>
+                    <li>Discuss more possible frameworks for project</li>
+                    <li>Watch videos on Web Development and Pomodoro</li>
+                    <li>Vote on favorite technologies for Frontend and Backend</li>
+                </ol>
+                During this meeting, we went over the technologies that will be used on the Flix movie website. We will be going more in depth into Web Development by watching videos and discussing the core concepts we need to know for this project. We also discussed potential backend and frontend technologies that should be leveraged, and will be voting on our favorite ones after the meeting.</details>
             <h4>Developers + Attendance</h4>
             <ol>
                 <li>Elias Arghand (PM)</li>
@@ -29,7 +37,7 @@
         </div>
         <br>
         <section>
-        <h4>Technologies to discuss:</h4>       
+        <h4>Technologies discussed:</h4>       
             <p> <b> <em>Frontend</em> Technologies:</b></p>
             <nav>
                 <ul>
@@ -43,9 +51,64 @@
             <ul>
                 <li> <a href="https://expressjs.com/"> <strong>Express</strong></a></li>
                 <li> <a href="https://flask.palletsprojects.com/en/2.0.x/"> <strong>Python Flask</strong></a> </li>
-                 </ul>
-            <nav>
-            </nav>
+            </ul>
+            <h3>Web Development Introduction Video</h3>
+                 <video width="400" height="290" controls>
+                    <source src="media/Intro.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+            <h3>Productivity tip for project: Pomodoro</h3>
+            <p> <strong>Required: Listen to why the Pomodoro technique is efficient</strong> </p>
+            <audio controls>
+                <source src="media/pomodoro.mp3" type="audio/mpeg">
+              </audio>
+                 <forn>   
+                <h3>Voting:</h3>      
+                <fieldset>
+                    <label>Name:</label>
+                    <input list="names" name="names">
+                    <br>
+                    <datalist id="names">
+                      <option value="Elias">
+                      <option value="Jimmy">
+                      <option value="Jamal">
+                      <option value="Wilson">
+                    </datalist>
+                 <label> Vote Frontend Technology </label>
+                 <select>
+                 <option value="React"> React.js </option>
+                 <option value="Vue"> Vue.js </option>
+                 <option value="Angular"> Angular.js </option>
+                </select>
+                <br>
+                <label>Vote Backend Technology</label>
+                    <input type="radio" value="Express">Express</input>
+                    <input type="radio" value="flask">Python Flask</input>
+                <br>
+                <label>
+                    Today's Date:
+                </label>
+                <input type="date" id="start" name="trip-start">
+                <br>
+                <button>Submit</button>
+            </fieldset>
+            </forn>
+            <br>
+                 <form>
+                     <br>
+                     <h3>Questions?</h3>
+                     <fieldset>
+                     <label>Enter Email:</label>
+                     <br>
+                     <input type="text"> </input>
+                     <br>
+                     <label>Enter Questions:</label>
+                     <br>
+                     <textarea rows=3 cols=40></textarea>
+                     <button>Submit</button>
+                    </fieldset>
+                    </form>
+                    
     </main>
     </body>
 </html>
