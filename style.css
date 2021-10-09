@@ -16,7 +16,7 @@ h4 {
 }
 
 /* Title at the top of the page */
-#title {
+.title {
     color: rgb(92, 79, 79);
     margin-bottom:2em;
     margin-top: 4vh;
