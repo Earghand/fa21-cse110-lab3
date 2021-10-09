@@ -58,9 +58,6 @@ p, div {
     font-family: 'Montserrat', sans-serif;
 }
 
-#backend {
-    padding: 2vh 5vh 2vh 1vh
-}
 
 #image {
     border-radius: 1em;
@@ -132,6 +129,10 @@ hr + footer {
 #topSide {
     display:grid;
     /* grid: auto-flow / 3fr 3fr 7fr;     */
-    grid-gap: 2em;
+    grid-gap: 3em;
     grid-template-columns: 20% 40% 50%;
+}
+
+#backend.technologies  {
+    padding: 2vh 5vh 2vh 1vh
 }
