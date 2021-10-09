@@ -4,22 +4,29 @@
         <meta name="Transportation App" content="Second team meeting">
         <title>Flix Movie Website</title>
         <link rel="icon" type="image/png" href="https://img.icons8.com/color/48/000000/popcorn.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
     <body>
         <div>
         <header>
-        <h1>Flix Movie Website</h1>
-        <h4><i>October 1, 2021</i></h4>
+        <h1 id="title" title="WebsiteTitle">Flix Movie Website</h1>
+        <h4 id="date"><i>October 1, 2021</i></h4>
         <hr>
 
     </header>
     </div>
     <main>
-            <h4>Previous Meeting</h4>
+        <div id="topSide">
+            <div>
+            <h4 id="previous">Previous Meeting</h4>
             <p>Previous meeting was introductions and backgrounds of each Developer before the project. Brainstormed a few technology, frontend and backend ideas.</p>
-
+             </div>
+             <div>
             <details>
-                <summary> <strong>Todays Agenda</strong> </summary>                
+                <summary id="agenda"> <strong>Todays Agenda</strong> </summary>                
                 <ol>
                     <li>Finish up introductions and ice breaker with teammates</li>
                     <li>Discuss more possible frameworks for project</li>
@@ -27,19 +34,24 @@
                     <li>Vote on favorite technologies for Frontend and Backend</li>
                 </ol>
                 During this meeting, we went over the technologies that will be used on the Flix movie website. We will be going more in depth into Web Development by watching videos and discussing the core concepts we need to know for this project. We also discussed potential backend and frontend technologies that should be leveraged, and will be voting on our favorite ones after the meeting.</details>
-            <h4>Developers + Attendance</h4>
+            </div>
+            <div id="attendance">
+                <h3>Developers + Attendance:</h3>
             <ol>
                 <li>Elias Arghand (PM)</li>
                 <li>Jimmy Johnson (Frontend Developer)</li>
                 <li>Jamal Hashimi (Backend Developer)</li>
                 <li>Wilson Tam (FullStack Developer)</li>
             </ol>
+        </div>
+        </div>
         <br>
         <section>
-            <img src="assets/web-development.png" alt="Flix Image" height="300">
+            <img id="image" src="assets/web-development.png" alt="Flix Image" height="300">
 
-        <h4>Technologies discussed:</h4>       
-            <p> <b> <em>Frontend</em> Technologies:</b></p>
+        <h4>Technologies discussed:</h4>    
+        <div id="frontend">  
+            <p> <b> <em>Frontend </em> Technologies:</b></p>
             <nav>
                 <ul>
                <li> <a href="https://reactjs.org/"> <strong>React.js</strong></a></li>
@@ -47,24 +59,33 @@
                <li> <a href="https://angular.io/"><strong>Angular</strong></a> </li>
                 </ul>
             </nav>
+            </div>
             </section>
-            <p><b><em>Backend</em> Technologies:</b></p>
+            <div id="backend">
+            <p><b><em>Backend </em> Technologies:</b></p>
             <ul>
                 <li> <a href="https://expressjs.com/"> <strong>Express</strong></a></li>
                 <li> <a href="https://flask.palletsprojects.com/en/2.0.x/"> <strong>Python Flask</strong></a> </li>
             </ul>
+            </div>
             <h3>Web Development Introduction Video</h3>
+                <div id="vid">
                  <video width="400" height="290" controls>
+                 </div>
                     <source src="media/Intro.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                   </video>
+            <div id="bottom">   
+            <div>
             <h3>Productivity tip for project: Pomodoro</h3>
             <p> <strong>Required:</strong> Listen to why the Pomodoro technique is efficient</p>
             <audio controls>
                 <source src="media/pomodoro.mp3" type="audio/mpeg">
               </audio>
-                 <form>   
-                <h3>Voting:</h3>      
+            </div>
+                    <!-- <div id="bottom">    -->
+                <form>   
+                <h3 id="bottomHeader">Voting:</h3>   
                 <fieldset>
                     <label>Name:</label>
                     <input list="names" name="names">
@@ -95,6 +116,7 @@
             </fieldset>
             </form>
             <br>
+            <div id="forms">
                  <form>
                      <br>
                      <h3>Questions?</h3>
@@ -108,7 +130,9 @@
                      <textarea rows=3 cols=40></textarea>
                      <button>Submit</button>
                     </fieldset>
+                </div>
                     </form>
+            </div>
                     <br>
                     <hr>
                     <footer>

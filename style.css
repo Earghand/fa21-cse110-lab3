@@ -1,0 +1,137 @@
+/* Body css for entire page */
+* {
+    background-color:lightgrey;
+    /* display:flex;
+    flex-direction: column; */
+}
+
+h1[title] {
+    font-size:40px;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+/* Title at the top of the page */
+#title {
+    color: rgb(92, 79, 79);
+    margin-bottom:2em;
+    margin-top: 4vh;
+    position: sticky;
+}
+
+/* Color changes and positioning for date */
+#date {
+    color: hsl(11, 100%, 27%);
+    margin-bottom: 2rem;
+    margin-left: 1vw;
+}
+
+/* Previous meeting notes styling header */
+#previous {
+    color: green;
+    margin: auto;
+}
+
+/* Changing color of todays agenda header */
+#agenda {
+    color: #FF5733;
+    font-size: 30px;
+}
+
+#attendance {
+    margin: 0.3in 10cm 30px 1pt; 
+}
+
+#frontend {
+    display:grid;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left:2px;
+    padding-right:3px;
+}
+
+p, div {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#backend {
+    padding: 2vh 5vh 2vh 1vh
+}
+
+#image {
+    border-radius: 1em;
+    border-style: double;
+    border-color:green;
+    border-width:5px;
+    height: 400px;
+    width: 700px;
+    max-width: 700px;
+    min-width: 200px;
+    position: relative;
+    transition: transform 280ms;
+}
+
+@media only screen and (max-width: 600px) {
+    #image {
+        border-color: red;
+    }
+}
+
+#agenda:active {
+    text-decoration:underline;
+    color:green;
+}
+
+#detail:active {
+    color: green;
+}
+
+#image:hover {
+    transform: translateY(-20px);
+}
+
+ ol li{
+    color: darkolivegreen;
+}
+
+div > ol {
+    font-size:15px;
+}
+
+div ~ p {
+    text-decoration: underline; 
+}
+
+hr + footer {
+    color: brown;
+}
+
+#forms.button{
+    color:red;
+}
+
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#bottomHeader {    
+    text-align: center;
+    font-size:30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#topSide {
+    display:grid;
+    /* grid: auto-flow / 3fr 3fr 7fr;     */
+    grid-gap: 2em;
+    grid-template-columns: 20% 40% 50%;
+}
